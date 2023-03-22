@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #C8D9EA;
+
+}
+
+header{
+    background-color: #FFCD48;
+    display: flex;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.Titulo{
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+}
+
+.Logo img{
+    height: 90px;
+    margin-right: 10px;
+    border-radius: 80px;
+}
+
+.NombreEmpresa{
+     color: #f9f9f9;
+}
+
+.figura{
+    float: left;
+    display: flex;
+    padding: 10px;
+    margin-trim: 35px;
+    margin-right: 12px;
+}
+
+.Narrativo{
+    background-color: #CACCCE;
+    padding: 10px;
+    font-size: 18px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.Descriptivo{
+    background-color: #CACCCE;
+    padding: 10px;
+    font-size: 18px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.indice{
+    background-color: #CACCCE;
+    padding: 30px;
+    font-size: 18px;
+    font-size: 15px;
+    text-align: justify;
+    margin-bottom: 50px;
+
+}
+
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+    color:  #f9f9f9;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #0b4f6c;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
+
+nav{
+    padding: 10px 0px;
+}
+.Buscar{
+    padding: 10px;
+}
+
+
+.miNombre{
+    padding: 10px;
+}
+
+.img1{
+    float: left;
+    width: 300px;
+    height: 180px;
+    padding: 5px;
+    margin-right: 12px;
+    
+}
+
+.img2{
+    float: left;
+    width: 300px;
+    height: 180px;
+    padding: 5px;
+    margin-right: 12px;
+}
+
+.img3{
+    float: left;
+    width: 300px;
+    height: 180px;
+    padding: 5px;
+    margin-right: 12px;
+} 
+
+.img4{
+    float: left;
+    width: 300px;
+    height: 180px;
+    padding: 5px;
+    margin-right: 12px;
+}
+
+
+.fecha{
+    vertical-align: text-top;
+    font-size: 18px;
+    font-size: 15px;
+}
+
+.texto{
+    font-size: 18px;
+    font-size: 15px;
+
+}
+
+.parrafo{
+    font-size: 18px;
+    font-size: 15px;
+    font-weight: 300px;
+    text-align: justify;
+}
+
+
+.titulo{
+    vertical-align: text-top;
+}
+
+.Informacion{
+    background-color: #CACCCE;
+    padding: 10px;
+    height: 200px;
+
+}
+
+
+/* aca se trabaja con el Footer - Pie de Pagina */
+
+/* aca se trabaja el color de los correos */
+.correo{
+    color: #1900fd;
+    font-size: 14px;
+  }
+  .correoeducativo{
+    color:#1900fd;
+  }
+  
+  /* aca se trabaja el color de los correos */
+  .contacto{
+    background-color: #0095ff;
+    color:#000000;
+    margin:0px;
+    width: 100%;
+    height: 50%;
+    padding:10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+  }
+  
+  /* aca se trabaja con el footer o el pie de pagina */
+  footer {
+    background-color: #0095ff;
+    color:#f9f9f9;
+    width: 100%;
+    margin:0px;
+    padding:10px 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    font-size: 16px;
+  }
+ 
